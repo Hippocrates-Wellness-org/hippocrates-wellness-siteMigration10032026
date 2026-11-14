@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import WpHtml from '../../components/WpHtml';
 import ContactForm from '../../components/ContactForm';
+import BlogSearch from '../../components/BlogSearch';
 import { allPaths, getDoc, getIndex, postCssPath } from '../../lib/content';
 
 export const dynamicParams = false;
@@ -21,6 +22,9 @@ const LIST_AFTER = {
   'learning-centre/blog': 'posts',
   'learning-centre/podcast': 'podcasts',
 };
+
+// The blog landing page and its scraped pagination pages get the search box
+const BLOG_PATH = /^learning-centre\/blog(?:\/\d+)?$/;
 
 export function generateStaticParams() {
   return allPaths().map((p) => ({ slug: p.split('/') }));
@@ -107,6 +111,7 @@ export default async function CmsPage({ params }) {
       // <body> can't carry it, so the class goes here (see globals.css).
       <article className={`cms-${doc.type} live${doc.type === 'archive' && doc.template_id ? ` elementor-page-${doc.template_id}` : ''}`}>
         {css.map((href) => <link key={href} rel="stylesheet" href={href} />)}
+        {BLOG_PATH.test(path) && <BlogSearch />}
         <WpHtml html={doc.content_live} />
         {path === 'contact-us' && <ContactForm />}
         {LIST_AFTER[path] && <PostIndex collection={LIST_AFTER[path]} />}

@@ -412,3 +412,39 @@ body.hw-popup-open { overflow: hidden; }
 .cms-archive.elementor-page-2560 {
   background-color: var(--e-global-color-8306182);
 }
+
+/* Blog search (components/BlogSearch.jsx): while active the scraped loop grid,
+   pagination, appended PostIndex and dead category filter are swapped for results. */
+.blog-searching .elementor-loop-container,
+.blog-searching .elementor-pagination,
+.blog-searching .post-index,
+.blog-searching .e-load-more-anchor {
+  display: none !important;
+}
+.blog-search { margin: 0 auto 1.5rem; max-width: 1140px; padding: 0 1rem; }
+.bs-bar { display: flex; gap: 0.5rem; }
+.bs-input {
+  flex: 1; padding: 0.75rem 1rem; font-size: 1rem;
+  border: 1px solid #cfd8d7; border-radius: 8px; outline: none;
+}
+.bs-input:focus { border-color: #2f8f88; box-shadow: 0 0 0 2px rgba(47, 143, 136, 0.15); }
+.bs-clear {
+  padding: 0.75rem 1rem; border: 1px solid #cfd8d7; border-radius: 8px;
+  background: #fff; cursor: pointer;
+}
+.bs-count { color: #6b7a78; font-size: 0.9rem; margin: 0.75rem 0; }
+.bs-results {
+  display: grid; gap: 1.75rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media (max-width: 1024px) { .bs-results { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .bs-results { grid-template-columns: 1fr; } }
+.bs-card { display: flex; flex-direction: column; color: inherit; text-decoration: none; }
+.bs-img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 10px; }
+.bs-cat {
+  margin-top: 0.75rem; font-size: 0.72rem; letter-spacing: 0.08em;
+  text-transform: uppercase; color: #d97b4f;
+}
+.bs-title { margin-top: 0.35rem; font-size: 1.15rem; font-weight: 600; color: #144c47; }
+.bs-excerpt { margin-top: 0.5rem; font-size: 0.92rem; line-height: 1.5; color: #4a5a58; }
+.bs-date { margin-top: 0.6rem; font-size: 0.85rem; color: #8a9694; }
