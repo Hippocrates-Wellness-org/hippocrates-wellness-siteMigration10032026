@@ -3,7 +3,7 @@
 import io, json, os, re, sys, time, urllib.request, concurrent.futures
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
-ROOT = r'C:\Users\Administrator\repos\hippocrates-wellness'
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = 'https://hippocrateswellness.org'
 UA = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
