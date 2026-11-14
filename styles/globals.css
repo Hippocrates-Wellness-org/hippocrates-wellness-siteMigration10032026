@@ -448,3 +448,14 @@ body.hw-popup-open { overflow: hidden; }
 .bs-title { margin-top: 0.35rem; font-size: 1.15rem; font-weight: 600; color: #144c47; }
 .bs-excerpt { margin-top: 0.5rem; font-size: 0.92rem; line-height: 1.5; color: #4a5a58; }
 .bs-date { margin-top: 0.6rem; font-size: 0.85rem; color: #8a9694; }
+
+/* Recipe tag filter (components/RecipeTagFilter.jsx): hide the scraped loop
+   grid, pagination, result counter and appended index while a tag is active. */
+.recipe-filtering .elementor-loop-container,
+.recipe-filtering .elementor-pagination,
+.recipe-filtering .post-index,
+.recipe-filtering .e-load-more-anchor,
+.recipe-filtering .elementor-widget-shortcode:has(input.started) {
+  display: none !important;
+}
+.recipe-filter { max-width: 1140px; margin: 0 auto 1.5rem; padding: 0 1rem; }

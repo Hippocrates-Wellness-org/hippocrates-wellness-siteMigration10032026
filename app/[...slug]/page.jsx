@@ -3,6 +3,7 @@ import Link from 'next/link';
 import WpHtml from '../../components/WpHtml';
 import ContactForm from '../../components/ContactForm';
 import BlogSearch from '../../components/BlogSearch';
+import RecipeTagFilter from '../../components/RecipeTagFilter';
 import { allPaths, getDoc, getIndex, postCssPath } from '../../lib/content';
 
 export const dynamicParams = false;
@@ -25,6 +26,9 @@ const LIST_AFTER = {
 
 // The blog landing page and its scraped pagination pages get the search box
 const BLOG_PATH = /^learning-centre\/blog(?:\/\d+)?$/;
+
+// The recipes listing and its scraped pagination pages get the tag filter
+const RECIPES_PATH = /^learning-centre\/meal-plans-recipes(?:\/\d+)?$/;
 
 export function generateStaticParams() {
   return allPaths().map((p) => ({ slug: p.split('/') }));
@@ -112,6 +116,7 @@ export default async function CmsPage({ params }) {
       <article className={`cms-${doc.type} live${doc.type === 'archive' && doc.template_id ? ` elementor-page-${doc.template_id}` : ''}`}>
         {css.map((href) => <link key={href} rel="stylesheet" href={href} />)}
         {BLOG_PATH.test(path) && <BlogSearch />}
+        {RECIPES_PATH.test(path) && <RecipeTagFilter />}
         <WpHtml html={doc.content_live} />
         {path === 'contact-us' && <ContactForm />}
         {LIST_AFTER[path] && <PostIndex collection={LIST_AFTER[path]} />}
