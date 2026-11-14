@@ -1,13 +1,16 @@
 'use client';
 import { useEffect, useMemo, useState } from 'react';
+import { createPortal } from 'react-dom';
 
 // Drives the scraped page's "Filter by tag" <select id="Filter_recipes_tag">,
-// which is dead markup without WP's JS. When a tag is chosen the scraped loop
-// grid + pagination + result counter are hidden (body.recipe-filtering, see
-// globals.css) and every recipe carrying that recipes-tag is rendered instead.
+// which is dead markup without WP's JS. Results are portaled into a slot
+// inserted at the loop grid's position so filtered recipes appear where the
+// grid was; while active the grid/pagination/counter hide via
+// body.recipe-filtering (see globals.css).
 export default function RecipeTagFilter() {
   const [recipes, setRecipes] = useState(null);
   const [tag, setTag] = useState('');
+  const [slot, setSlot] = useState(null);
   const active = tag !== '';
 
   useEffect(() => {
@@ -18,9 +21,16 @@ export default function RecipeTagFilter() {
       .catch(() => {});
     const onChange = (e) => { if (e.target?.id === 'Filter_recipes_tag') setTag(e.target.value); };
     document.addEventListener('change', onChange);
+    // Mount point for results: right where the scraped recipe grid sits.
+    const grid = document.querySelector('.elementor-loop-container');
+    const el = document.createElement('div');
+    el.className = 'recipe-filter';
+    if (grid) grid.parentNode.insertBefore(el, grid);
+    setSlot(el);
     return () => {
       dead = true;
       document.removeEventListener('change', onChange);
+      el.remove();
     };
   }, []);
 
@@ -36,8 +46,9 @@ export default function RecipeTagFilter() {
 
   const label = (slug) => slug.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
 
-  return (
-    <div className="recipe-filter">
+  if (!slot) return null;
+  return createPortal(
+    <>
       {active && (
         <p className="bs-count" role="status">
           {recipes ? `${results.length} recipe${results.length === 1 ? '' : 's'} tagged “${label(tag)}”` : 'Loading…'}
@@ -55,6 +66,7 @@ export default function RecipeTagFilter() {
           ))}
         </div>
       )}
-    </div>
+    </>,
+    slot
   );
 }

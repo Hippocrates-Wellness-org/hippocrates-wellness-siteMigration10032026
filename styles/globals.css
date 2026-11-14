@@ -458,4 +458,7 @@ body.hw-popup-open { overflow: hidden; }
 .recipe-filtering .elementor-widget-shortcode:has(input.started) {
   display: none !important;
 }
-.recipe-filter { max-width: 1140px; margin: 0 auto 1.5rem; padding: 0 1rem; }
+/* The filter results slot is inserted at the loop grid's position; the .bs-results
+   grid inside it already provides columns, so only vertical rhythm is needed. */
+.recipe-filter:empty { display: none; }
+.recipe-filter .bs-results { margin-top: 0.5rem; }
