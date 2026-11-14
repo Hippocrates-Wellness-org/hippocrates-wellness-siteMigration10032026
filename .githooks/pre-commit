@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Stamp the global footer's copyright sentence with the current date/time.
+# Replaces any stamp appended by a previous run, then stages the file so the
+# updated text lands in the commit that triggered the hook.
+set -euo pipefail
+
+FILE="content/live-chrome.json"
+STAMP="$(date '+%Y-%m-%d %H:%M')"
+
+sed -i -E "s/(All Rights Reserved\.)[^<]*/\1 ${STAMP}/" "$FILE"
+git add "$FILE"
