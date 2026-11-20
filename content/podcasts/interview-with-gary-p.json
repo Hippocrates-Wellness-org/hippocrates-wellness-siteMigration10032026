@@ -1,1 +1,19 @@
-{"id": "7231", "type": "podcast", "slug": "interview-with-gary-p", "path": "interview-with-gary-p", "title": "Interview with Gary P", "date": "2023-06-19 00:00:00", "modified": "2023-06-19 00:00:00", "excerpt": "", "content": "Interview with Gary P", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7231",
+ "type": "podcast",
+ "slug": "interview-with-gary-p",
+ "path": "interview-with-gary-p",
+ "title": "Interview with Gary P",
+ "date": "2023-06-19 00:00:00",
+ "modified": "2023-06-19 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/gary-p/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Interview with Gary P</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

@@ -1,1 +1,19 @@
-{"id": "7284", "type": "podcast", "slug": "crohns-disease", "path": "crohns-disease", "title": "Crohn’s Disease", "date": "2019-04-29 00:00:00", "modified": "2019-04-29 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7284",
+ "type": "podcast",
+ "slug": "crohns-disease",
+ "path": "crohns-disease",
+ "title": "Crohn’s Disease",
+ "date": "2019-04-29 00:00:00",
+ "modified": "2019-04-29 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/crohns-disease-1556547281/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

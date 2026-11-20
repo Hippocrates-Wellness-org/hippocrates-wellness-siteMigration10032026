@@ -1,1 +1,19 @@
-{"id": "7275", "type": "podcast", "slug": "cbd-care", "path": "cbd-care", "title": "CBD Care", "date": "2019-07-23 00:00:00", "modified": "2019-07-23 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7275",
+ "type": "podcast",
+ "slug": "cbd-care",
+ "path": "cbd-care",
+ "title": "CBD Care",
+ "date": "2019-07-23 00:00:00",
+ "modified": "2019-07-23 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/cbd-care/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

@@ -1,1 +1,19 @@
-{"id": "7283", "type": "podcast", "slug": "hepatitis-c-and-liver-cancer", "path": "hepatitis-c-and-liver-cancer", "title": "Hepatitis C and Liver Cancer", "date": "2019-05-06 00:00:00", "modified": "2019-05-06 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7283",
+ "type": "podcast",
+ "slug": "hepatitis-c-and-liver-cancer",
+ "path": "hepatitis-c-and-liver-cancer",
+ "title": "Hepatitis C and Liver Cancer",
+ "date": "2019-05-06 00:00:00",
+ "modified": "2019-05-06 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/hepatitis-c-and-liver-cancer/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

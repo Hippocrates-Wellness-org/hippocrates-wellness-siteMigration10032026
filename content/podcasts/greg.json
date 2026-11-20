@@ -1,1 +1,19 @@
-{"id": "7229", "type": "podcast", "slug": "greg", "path": "greg", "title": "Greg", "date": "2023-07-24 00:00:00", "modified": "2023-07-24 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7229",
+ "type": "podcast",
+ "slug": "greg",
+ "path": "greg",
+ "title": "Greg",
+ "date": "2023-07-24 00:00:00",
+ "modified": "2023-07-24 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/interview-with-greg/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

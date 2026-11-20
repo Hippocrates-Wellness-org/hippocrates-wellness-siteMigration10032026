@@ -1,1 +1,19 @@
-{"id": "7263", "type": "podcast", "slug": "covid-19", "path": "covid-19", "title": "COVID-19", "date": "2020-04-13 00:00:00", "modified": "2020-04-13 00:00:00", "excerpt": "", "content": "COVID-19 discussion with Blum Smatt Shivani", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7263",
+ "type": "podcast",
+ "slug": "covid-19",
+ "path": "covid-19",
+ "title": "COVID-19",
+ "date": "2020-04-13 00:00:00",
+ "modified": "2020-04-13 00:00:00",
+ "excerpt": "",
+ "content": "<p><audio controls preload=\"none\" src=\"https://s380.podbean.com/pb/2b4bd111d0f04360263c343c7830ac31/6affd51d/data1/fs9/4083091/uploads/Hippocrates_Program_4-12-Corona-Blum_Smatt_Shivani.mp3?pbss=c078bb5f-0d25-56ff-9635-1ed666acfb9e\" style=\"width:100%\"></audio></p>\n<p>COVID-19 discussion with Blum Smatt Shivani</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

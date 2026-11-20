@@ -1,1 +1,19 @@
-{"id": "7249", "type": "podcast", "slug": "cancer", "path": "cancer", "title": "Cancer", "date": "2021-05-18 00:00:00", "modified": "2021-05-18 00:00:00", "excerpt": "", "content": "Brian and Anna speak with Tony on Cancer", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7249",
+ "type": "podcast",
+ "slug": "cancer",
+ "path": "cancer",
+ "title": "Cancer",
+ "date": "2021-05-18 00:00:00",
+ "modified": "2021-05-18 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/cancer-interview/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Brian and Anna speak with Tony on Cancer</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

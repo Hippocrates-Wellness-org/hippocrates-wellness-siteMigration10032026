@@ -1,1 +1,19 @@
-{"id": "7244", "type": "podcast", "slug": "jim-poole", "path": "jim-poole", "title": "Jim Poole", "date": "2023-02-26 00:00:00", "modified": "2023-02-26 00:00:00", "excerpt": "", "content": "Interview with Jim Poole", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7244",
+ "type": "podcast",
+ "slug": "jim-poole",
+ "path": "jim-poole",
+ "title": "Jim Poole",
+ "date": "2023-02-26 00:00:00",
+ "modified": "2023-02-26 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/jim-poole/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Interview with Jim Poole</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

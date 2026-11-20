@@ -1,1 +1,19 @@
-{"id": "7221", "type": "podcast", "slug": "hennings-pt-2", "path": "hennings-pt-2", "title": "Hennings Pt. 2", "date": "2023-10-08 00:00:00", "modified": "2023-10-08 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7221",
+ "type": "podcast",
+ "slug": "hennings-pt-2",
+ "path": "hennings-pt-2",
+ "title": "Hennings Pt. 2",
+ "date": "2023-10-08 00:00:00",
+ "modified": "2023-10-08 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/hennings-episode-2/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

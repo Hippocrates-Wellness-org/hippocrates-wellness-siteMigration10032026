@@ -1,1 +1,19 @@
-{"id": "7250", "type": "podcast", "slug": "dr-rivky", "path": "dr-rivky", "title": "Dr. Rivky", "date": "2021-04-12 00:00:00", "modified": "2021-04-12 00:00:00", "excerpt": "", "content": "Brian and Anna Maria interview specialist Dr. Rivky", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7250",
+ "type": "podcast",
+ "slug": "dr-rivky",
+ "path": "dr-rivky",
+ "title": "Dr. Rivky",
+ "date": "2021-04-12 00:00:00",
+ "modified": "2021-04-12 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/dr-rivky/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Brian and Anna Maria interview specialist Dr. Rivky</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

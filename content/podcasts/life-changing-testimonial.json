@@ -1,1 +1,19 @@
-{"id": "7280", "type": "podcast", "slug": "life-changing-testimonial", "path": "life-changing-testimonial", "title": "Life Changing Testimonial", "date": "2019-06-10 00:00:00", "modified": "2019-06-10 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7280",
+ "type": "podcast",
+ "slug": "life-changing-testimonial",
+ "path": "life-changing-testimonial",
+ "title": "Life Changing Testimonial",
+ "date": "2019-06-10 00:00:00",
+ "modified": "2019-06-10 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/life-changing-testimonial/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

@@ -1,1 +1,19 @@
-{"id": "7216", "type": "podcast", "slug": "sean-pt-2", "path": "sean-pt-2", "title": "Sean Pt. 2", "date": "2023-11-27 00:00:00", "modified": "2023-11-27 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7216",
+ "type": "podcast",
+ "slug": "sean-pt-2",
+ "path": "sean-pt-2",
+ "title": "Sean Pt. 2",
+ "date": "2023-11-27 00:00:00",
+ "modified": "2023-11-27 00:00:00",
+ "excerpt": "",
+ "content": "<p><audio controls preload=\"none\" src=\"https://mcdn.podbean.com/mf/web/nuqrnz/hIPPOCRATES_Sean_Bean_2_SHOW_MIX_11-26-23_1_7rmzn.mp3\" style=\"width:100%\"></audio></p>\n<p><em><a href=\"https://hippocrates.podbean.com/e/sean-pt2/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

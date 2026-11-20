@@ -1,1 +1,19 @@
-{"id": "7290", "type": "podcast", "slug": "raw-love-fest", "path": "raw-love-fest", "title": "Raw Love Fest", "date": "2019-02-08 00:00:00", "modified": "2019-02-08 00:00:00", "excerpt": "", "content": "Brian, Anna and the team talk about Raw Love Fest happening on February 16th!", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7290",
+ "type": "podcast",
+ "slug": "raw-love-fest",
+ "path": "raw-love-fest",
+ "title": "Raw Love Fest",
+ "date": "2019-02-08 00:00:00",
+ "modified": "2019-02-08 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/raw-love-fest/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Brian, Anna and the team talk about Raw Love Fest happening on February 16th!</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

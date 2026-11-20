@@ -1,1 +1,19 @@
-{"id": "7238", "type": "podcast", "slug": "mike-roizen-part-2", "path": "mike-roizen-part-2", "title": "Mike Roizen Part 2", "date": "2023-03-06 00:00:00", "modified": "2023-03-06 00:00:00", "excerpt": "", "content": "Part 2 of Interview with Mike Roizen", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7238",
+ "type": "podcast",
+ "slug": "mike-roizen-part-2",
+ "path": "mike-roizen-part-2",
+ "title": "Mike Roizen Part 2",
+ "date": "2023-03-06 00:00:00",
+ "modified": "2023-03-06 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/mike-roizen-part-2/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Part 2 of Interview with Mike Roizen</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

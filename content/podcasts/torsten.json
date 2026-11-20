@@ -1,1 +1,19 @@
-{"id": "7242", "type": "podcast", "slug": "torsten", "path": "torsten", "title": "Torsten", "date": "2023-03-06 00:00:00", "modified": "2023-03-06 00:00:00", "excerpt": "", "content": "Interview with Torsten", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7242",
+ "type": "podcast",
+ "slug": "torsten",
+ "path": "torsten",
+ "title": "Torsten",
+ "date": "2023-03-06 00:00:00",
+ "modified": "2023-03-06 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/torsten/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Interview with Torsten</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

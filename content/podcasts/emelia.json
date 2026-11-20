@@ -1,1 +1,19 @@
-{"id": "7247", "type": "podcast", "slug": "emelia", "path": "emelia", "title": "Emelia", "date": "2021-07-19 00:00:00", "modified": "2021-07-19 00:00:00", "excerpt": "", "content": "Brian and Anna interview Emelia!", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7247",
+ "type": "podcast",
+ "slug": "emelia",
+ "path": "emelia",
+ "title": "Emelia",
+ "date": "2021-07-19 00:00:00",
+ "modified": "2021-07-19 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/emelia/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Brian and Anna interview Emelia!</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

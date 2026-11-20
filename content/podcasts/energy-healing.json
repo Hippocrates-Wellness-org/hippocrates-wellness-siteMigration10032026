@@ -1,1 +1,19 @@
-{"id": "7287", "type": "podcast", "slug": "energy-healing", "path": "energy-healing", "title": "Energy Healing", "date": "2019-04-15 00:00:00", "modified": "2019-04-15 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7287",
+ "type": "podcast",
+ "slug": "energy-healing",
+ "path": "energy-healing",
+ "title": "Energy Healing",
+ "date": "2019-04-15 00:00:00",
+ "modified": "2019-04-15 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/energy-healing-1555342514/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

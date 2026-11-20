@@ -1,1 +1,19 @@
-{"id": "7234", "type": "podcast", "slug": "dr-dym", "path": "dr-dym", "title": "Dr. Dym", "date": "2023-05-01 00:00:00", "modified": "2023-05-01 00:00:00", "excerpt": "", "content": "Interview with Dr. Dym", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7234",
+ "type": "podcast",
+ "slug": "dr-dym",
+ "path": "dr-dym",
+ "title": "Dr. Dym",
+ "date": "2023-05-01 00:00:00",
+ "modified": "2023-05-01 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/dr-dym-the-holistic-vet/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Interview with Dr. Dym</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

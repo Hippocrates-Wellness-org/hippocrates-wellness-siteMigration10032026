@@ -1,1 +1,19 @@
-{"id": "7291", "type": "podcast", "slug": "brian-clement-with-green-smoothie-girl", "path": "brian-clement-with-green-smoothie-girl", "title": "Brian Clement with Green Smoothie Girl", "date": "2019-02-01 00:00:00", "modified": "2019-02-01 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7291",
+ "type": "podcast",
+ "slug": "brian-clement-with-green-smoothie-girl",
+ "path": "brian-clement-with-green-smoothie-girl",
+ "title": "Brian Clement with Green Smoothie Girl",
+ "date": "2019-02-01 00:00:00",
+ "modified": "2019-02-01 00:00:00",
+ "excerpt": "",
+ "content": "<p><audio controls preload=\"none\" src=\"https://mcdn.podbean.com/mf/web/7y7c2u/Ep_117_Brian_Clement.mp3\" style=\"width:100%\"></audio></p>\n<p><em><a href=\"https://hippocrates.podbean.com/e/brian-clement-with-green-smoothie-girl/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

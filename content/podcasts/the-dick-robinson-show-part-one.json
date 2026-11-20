@@ -1,1 +1,19 @@
-{"id": "7293", "type": "podcast", "slug": "the-dick-robinson-show-part-one", "path": "the-dick-robinson-show-part-one", "title": "The Dick Robinson Show Part One", "date": "2019-01-11 00:00:00", "modified": "2019-01-11 00:00:00", "excerpt": "", "content": "Brian Clement on the Dick Robinson Show Part 1.", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7293",
+ "type": "podcast",
+ "slug": "the-dick-robinson-show-part-one",
+ "path": "the-dick-robinson-show-part-one",
+ "title": "The Dick Robinson Show Part One",
+ "date": "2019-01-11 00:00:00",
+ "modified": "2019-01-11 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/the-dick-robinson-show-part-one/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Brian Clement on the Dick Robinson Show Part 1.</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

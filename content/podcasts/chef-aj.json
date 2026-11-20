@@ -1,1 +1,19 @@
-{"id": "7236", "type": "podcast", "slug": "chef-aj", "path": "chef-aj", "title": "Chef AJ", "date": "2023-04-09 00:00:00", "modified": "2023-04-09 00:00:00", "excerpt": "", "content": "Interview with Chef AJ", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7236",
+ "type": "podcast",
+ "slug": "chef-aj",
+ "path": "chef-aj",
+ "title": "Chef AJ",
+ "date": "2023-04-09 00:00:00",
+ "modified": "2023-04-09 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/chef-aj/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Interview with Chef AJ</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

@@ -1,1 +1,19 @@
-{"id": "7262", "type": "podcast", "slug": "cancer-and-psychoneuroimmunology", "path": "cancer-and-psychoneuroimmunology", "title": "Cancer and Psychoneuroimmunology", "date": "2020-05-04 00:00:00", "modified": "2020-05-04 00:00:00", "excerpt": "", "content": "An amazing interview with Dr. Jan from our cancer program.", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7262",
+ "type": "podcast",
+ "slug": "cancer-and-psychoneuroimmunology",
+ "path": "cancer-and-psychoneuroimmunology",
+ "title": "Cancer and Psychoneuroimmunology",
+ "date": "2020-05-04 00:00:00",
+ "modified": "2020-05-04 00:00:00",
+ "excerpt": "",
+ "content": "<p><audio controls preload=\"none\" src=\"https://s380.podbean.com/pb/85ce456c4820346a507a337c4659b4d4/6affd51c/data1/fs9/4083091/uploads/Hippocrates_for_5-2_Dr_Jan_W_FULL.mp3?pbss=40eddde0-d7f5-570b-ae51-ac7c9fc8b4d3\" style=\"width:100%\"></audio></p>\n<p>An amazing interview with Dr. Jan from our cancer program.</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

@@ -1,1 +1,19 @@
-{"id": "7257", "type": "podcast", "slug": "interview-with-gail", "path": "interview-with-gail", "title": "Interview with Gail", "date": "2020-08-03 00:00:00", "modified": "2020-08-03 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7257",
+ "type": "podcast",
+ "slug": "interview-with-gail",
+ "path": "interview-with-gail",
+ "title": "Interview with Gail",
+ "date": "2020-08-03 00:00:00",
+ "modified": "2020-08-03 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/interview-with-gail/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

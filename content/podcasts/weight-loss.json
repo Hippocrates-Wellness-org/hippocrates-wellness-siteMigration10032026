@@ -1,1 +1,19 @@
-{"id": "7298", "type": "podcast", "slug": "weight-loss", "path": "weight-loss", "title": "Weight Loss", "date": "2018-12-28 00:00:00", "modified": "2018-12-28 00:00:00", "excerpt": "", "content": "Meet the experts from our Hippocrates Weight Loss Academy and their secrets to true weight loss!", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7298",
+ "type": "podcast",
+ "slug": "weight-loss",
+ "path": "weight-loss",
+ "title": "Weight Loss",
+ "date": "2018-12-28 00:00:00",
+ "modified": "2018-12-28 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/weight-loss-1546009857/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Meet the experts from our Hippocrates Weight Loss Academy and their secrets to true weight loss!</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

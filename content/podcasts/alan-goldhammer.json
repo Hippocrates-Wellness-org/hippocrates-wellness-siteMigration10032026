@@ -1,1 +1,19 @@
-{"id": "7240", "type": "podcast", "slug": "alan-goldhammer", "path": "alan-goldhammer", "title": "Alan Goldhammer", "date": "2023-03-06 00:00:00", "modified": "2023-03-06 00:00:00", "excerpt": "", "content": "Alan Goldhammer on Fasting", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7240",
+ "type": "podcast",
+ "slug": "alan-goldhammer",
+ "path": "alan-goldhammer",
+ "title": "Alan Goldhammer",
+ "date": "2023-03-06 00:00:00",
+ "modified": "2023-03-06 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/alan-goldhamer/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>\n<p>Alan Goldhammer on Fasting</p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}

@@ -1,1 +1,19 @@
-{"id": "7259", "type": "podcast", "slug": "aaron-scanlan", "path": "aaron-scanlan", "title": "Aaron Scanlan", "date": "2020-08-02 00:00:00", "modified": "2020-08-02 00:00:00", "excerpt": "", "content": "", "seoTitle": null, "seoDesc": null, "canonical": null, "ogTitle": null, "ogDesc": null, "image": null, "terms": {}, "elementor": false}
+{
+ "id": "7259",
+ "type": "podcast",
+ "slug": "aaron-scanlan",
+ "path": "aaron-scanlan",
+ "title": "Aaron Scanlan",
+ "date": "2020-08-02 00:00:00",
+ "modified": "2020-08-02 00:00:00",
+ "excerpt": "",
+ "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/aaron-scanlan/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "seoTitle": null,
+ "seoDesc": null,
+ "canonical": null,
+ "ogTitle": null,
+ "ogDesc": null,
+ "image": null,
+ "terms": {},
+ "elementor": false
+}
