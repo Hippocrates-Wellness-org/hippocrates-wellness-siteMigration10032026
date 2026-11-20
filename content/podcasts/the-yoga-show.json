@@ -7,7 +7,7 @@
  "date": "2019-05-06 00:00:00",
  "modified": "2019-05-06 00:00:00",
  "excerpt": "",
- "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/the-yoga-show/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "content": "<p><audio controls preload=\"none\" src=\"https://mcdn.podbean.com/mf/web/iy5c5j/Hippocrates_Program_4-21-Yoga_Show.mp3\" style=\"width:100%\"></audio></p>\n<p><em><a href=\"https://hippocrates.podbean.com/e/the-yoga-show/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
  "seoTitle": null,
  "seoDesc": null,
  "canonical": null,

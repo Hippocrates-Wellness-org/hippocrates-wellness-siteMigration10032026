@@ -7,7 +7,7 @@
  "date": "2019-07-03 00:00:00",
  "modified": "2019-07-03 00:00:00",
  "excerpt": "",
- "content": "<p><em><a href=\"https://hippocrates.podbean.com/e/testimonial-with-mark/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
+ "content": "<p><audio controls preload=\"none\" src=\"https://mcdn.podbean.com/mf/web/twz59y/Hippocrates_Program_6-2_Mark_Bryant_2_.mp3\" style=\"width:100%\"></audio></p>\n<p><em><a href=\"https://hippocrates.podbean.com/e/testimonial-with-mark/\" target=\"_blank\" rel=\"noopener\">Listen on Podbean</a></em></p>",
  "seoTitle": null,
  "seoDesc": null,
  "canonical": null,
