@@ -21,7 +21,6 @@ const POST_WIDGET_CSS = ['/wp-content/plugins/elementor-pro/assets/css/widget-au
 // Pages whose archive listing gets appended after their content
 const LIST_AFTER = {
   'learning-centre/blog': 'posts',
-  'learning-centre/podcast': 'podcasts',
 };
 
 // The blog landing page and its scraped pagination pages get the search box
