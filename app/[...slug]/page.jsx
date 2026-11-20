@@ -4,6 +4,7 @@ import WpHtml from '../../components/WpHtml';
 import ContactForm from '../../components/ContactForm';
 import BlogSearch from '../../components/BlogSearch';
 import RecipeTagFilter from '../../components/RecipeTagFilter';
+import PodcastSearch from '../../components/PodcastSearch';
 import { allPaths, getDoc, getIndex, postCssPath } from '../../lib/content';
 
 export const dynamicParams = false;
@@ -23,6 +24,9 @@ const BLOG_PATH = /^learning-centre\/blog(?:\/\d+)?$/;
 
 // The recipes listing and its scraped pagination pages get the tag filter
 const RECIPES_PATH = /^learning-centre\/meal-plans-recipes(?:\/\d+)?$/;
+
+// The podcast listing and its scraped pagination pages get the episode search
+const PODCAST_PATH = /^learning-centre\/podcast(?:\/\d+)?$/;
 
 export function generateStaticParams() {
   return allPaths().map((p) => ({ slug: p.split('/') }));
@@ -111,6 +115,7 @@ export default async function CmsPage({ params }) {
         {css.map((href) => <link key={href} rel="stylesheet" href={href} />)}
         {BLOG_PATH.test(path) && <BlogSearch />}
         {RECIPES_PATH.test(path) && <RecipeTagFilter />}
+        {PODCAST_PATH.test(path) && <PodcastSearch />}
         <WpHtml html={doc.content_live} />
         {path === 'contact-us' && <ContactForm />}
       </article>

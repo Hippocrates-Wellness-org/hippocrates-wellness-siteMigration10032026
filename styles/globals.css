@@ -462,3 +462,23 @@ body.hw-popup-open { overflow: hidden; }
    grid inside it already provides columns, so only vertical rhythm is needed. */
 .recipe-filter:empty { display: none; }
 .recipe-filter .bs-results { margin-top: 0.5rem; }
+
+/* Podcast search (components/PodcastSearch.jsx): input sits on the
+   "Recent Episodes" heading row, pushed to the right margin; while a
+   query is active the scraped grid/pagination/counter hide. */
+.podcast-search-row { display: flex; flex-wrap: wrap; align-items: center; }
+.podcast-search-row > .elementor-widget-heading { margin-right: auto; }
+.podcast-search-row > .elementor-widget-loop-grid { flex-basis: 100%; }
+.podcast-search-input {
+  width: min(260px, 60vw); padding: 0.55rem 0.9rem; font-size: 0.95rem;
+  border: 1px solid #cfd8d7; border-radius: 20px; outline: none;
+}
+.podcast-search-input:focus { border-color: #2f8f88; box-shadow: 0 0 0 2px rgba(47, 143, 136, 0.15); }
+.podcast-search-results:empty { display: none; }
+.podcast-search-results .bs-results { margin-top: 0.5rem; }
+.podcast-searching .elementor-loop-container,
+.podcast-searching .elementor-pagination,
+.podcast-searching .e-load-more-anchor,
+.podcast-searching .elementor-widget-shortcode:has(input.started) {
+  display: none !important;
+}
