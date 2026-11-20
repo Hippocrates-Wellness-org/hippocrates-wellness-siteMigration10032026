@@ -18,11 +18,6 @@ const ARCHIVES = {
 // beyond the site-wide set in app/layout.jsx.
 const POST_WIDGET_CSS = ['/wp-content/plugins/elementor-pro/assets/css/widget-author-box.min.css'];
 
-// Pages whose archive listing gets appended after their content
-const LIST_AFTER = {
-  'learning-centre/blog': 'posts',
-};
-
 // The blog landing page and its scraped pagination pages get the search box
 const BLOG_PATH = /^learning-centre\/blog(?:\/\d+)?$/;
 
@@ -118,7 +113,6 @@ export default async function CmsPage({ params }) {
         {RECIPES_PATH.test(path) && <RecipeTagFilter />}
         <WpHtml html={doc.content_live} />
         {path === 'contact-us' && <ContactForm />}
-        {LIST_AFTER[path] && <PostIndex collection={LIST_AFTER[path]} />}
       </article>
     );
   }
@@ -144,7 +138,6 @@ export default async function CmsPage({ params }) {
       )}
       <WpHtml html={doc.content || ''} />
       {path === 'contact-us' && <ContactForm />}
-      {LIST_AFTER[path] && <PostIndex collection={LIST_AFTER[path]} />}
     </article>
   );
 }
